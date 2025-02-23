@@ -13,7 +13,7 @@ import firebase from '../../assets/techs/firebase.png'
 import vite from '../../assets/techs/vite.png'
 
 import { useEffect } from 'react';
-import AOS from "aos";
+import AOS from "aos"
 import 'aos/dist/aos.css';
 
 import Tilt from "react-parallax-tilt";
@@ -32,7 +32,7 @@ export default function Skills() {
                     <div className={styles.logoSkillsFront} data-aos="fade-up">
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -47,7 +47,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -62,7 +62,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -77,7 +77,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -92,7 +92,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -107,7 +107,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -136,7 +136,7 @@ export default function Skills() {
                     <div className={styles.logoSkillsBack} data-aos="fade-up" data-aos-delay="500">
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -151,7 +151,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -166,7 +166,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -181,7 +181,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}
@@ -196,7 +196,7 @@ export default function Skills() {
                         </div>
 
                         <div>
-                        <Tilt
+                            <Tilt
                                 tiltMaxAngleX={15}
                                 tiltMaxAngleY={15}
                                 glareEnable={true}

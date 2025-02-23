@@ -2,17 +2,22 @@
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useMemo, useState } from "react";
-import { loadSlim } from "@tsparticles/slim"; 
-import styles from './animation.module.css';
+import { loadSlim } from "@tsparticles/slim";
+import styles from "./animation.module.css";
 
-const ParticlesComponent = (props) => {
+const ParticlesComponent = ({ id = "particles" }) => {
+
   const [init, setInit] = useState(false);
 
   useEffect(() => {
+  
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => setInit(true));
+    }).then(() => {
+      setInit(true); 
+    });
   }, []);
+
 
   const options = useMemo(() => ({
     background: { color: { value: "#050505" } },
@@ -27,7 +32,12 @@ const ParticlesComponent = (props) => {
     particles: {
       color: { value: "#a10606" },
       links: { color: "#FFF", distance: 150, enable: true, opacity: 0.3, width: 1 },
-      move: { enable: true, speed: 1, outModes: { default: "bounce" }, random: true },
+      move: { 
+        enable: true, 
+        speed: 1, 
+        outModes: { default: "bounce" },
+        random: true 
+      },
       number: { density: { enable: true }, value: 150 },
       opacity: { value: 1.0 },
       shape: { type: "circle" },
@@ -36,7 +46,8 @@ const ParticlesComponent = (props) => {
     detectRetina: true,
   }), []);
 
-  return <Particles className={styles.anime} id={props.id} options={options} />;
+  // @ts-ignore
+  return init ? <Particles className={styles.anime} id={id} options={options} /> : null;
 };
 
 export default ParticlesComponent;
