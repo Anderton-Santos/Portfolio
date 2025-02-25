@@ -72,6 +72,14 @@
     padding: 20px;
 }
 
+@media screen and (max-width: 320px) {
+    .bttn button{
+        padding: 10px !important;
+        width: 220px !important;
+        font-size: 18px !important;
+    }
+
+}
 
 @media screen and (max-width: 767px) {
 

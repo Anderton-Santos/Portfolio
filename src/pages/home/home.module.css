@@ -24,6 +24,24 @@
     padding: 20px;
 }
 
+
+
+@media screen and (max-width: 320px) {
+    h2{
+        font-size: 28px !important;
+        margin-bottom: 18%;
+    }
+
+    .redes a{
+        margin-top: 60px;
+    font-size: 30px;
+    padding: 20px;
+}
+  }
+
+
+
+
 @media screen and (max-width: 767px) {
 
     .titlespanmain{
@@ -37,7 +55,7 @@
         padding: 23px;
         color: #f4f4f4;
         position: relative;
-        font-size: 40px;
+        font-size: 53px;
         width: 100%;
         font-family: "Poppins", serif;
       font-weight: 800;
@@ -50,6 +68,12 @@
         justify-content: center;
     
     }
+
+    .redes a{
+        margin-top: 60px;
+    font-size: 40px;
+    padding: 20px;
+}
 
 
 }
