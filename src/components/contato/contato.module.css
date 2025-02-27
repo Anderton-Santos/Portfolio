@@ -73,15 +73,45 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    .titleMain span{
+        height: 100%;
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:start;
+        font-size: 40px !important;
+        line-height: 140px;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        
+    }
+
+    
     .bttn button{
         padding: 10px !important;
         width: 220px !important;
         font-size: 18px !important;
     }
 
+    .redes{
+        padding: 10px;
+        height: 30vh !important;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .redes a{
+        font-size: 30px;
+    }
+    
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
 
 

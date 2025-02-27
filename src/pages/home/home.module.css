@@ -28,21 +28,33 @@
 
 @media screen and (max-width: 320px) {
     h2{
-        font-size: 28px !important;
+        width: 90% !important;
+        font-size: 22px !important;
         margin-bottom: 18%;
     }
 
     .redes a{
-        margin-top: 60px;
-    font-size: 30px;
+    font-size: 24px !important;
+    padding: 20px;
+}
+  }
+
+  @media screen and (max-width: 414px) {
+    h2{
+        width: 90% !important;
+        font-size: 32px !important;
+        margin-bottom: 18%;
+    }
+
+    .redes a{
+    font-size: 28px !important;
     padding: 20px;
 }
   }
 
 
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .titlespanmain{
         display: flex;
@@ -55,7 +67,7 @@
         padding: 23px;
         color: #f4f4f4;
         position: relative;
-        font-size: 53px;
+        font-size: 46px;
         width: 100%;
         font-family: "Poppins", serif;
       font-weight: 800;

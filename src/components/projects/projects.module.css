@@ -72,57 +72,8 @@
     width: 400px;
 }
 
-@media screen and (max-width: 320px) {
 
-    .titleProjects {
-        color: white;
-        font-size: 36px;
-        font-family: "Space Mono", serif;
-        font-weight: 700;
-        font-style: italic;
-        margin-top: 70%;
-
-    }
-
-    .subtitleProjects {
-        margin-bottom: -90% !important;
-    }
-    
-
-    
-    .project {
-        
-        width: 300px !important;
-        height: 300px;
-        margin-bottom: -80px !important;
-    }
-
-    .projectTwo {
-        
-        width: 300px !important;
-        height: 300px;
-        margin-bottom: -160px !important;
-    }
-
-    .textProject,
-    .textProjectTwo {
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        width: 240px !important;
-        text-align: center;
-    }
-
-    
-
-    
-    
-    
-
-
-
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .titleProjects {
         color: white;
@@ -195,5 +146,121 @@
         width: 400px;
         margin-top: -60px;
     }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .titleProjects {width: 100%;
+        color: white;
+        font-size: 30px;
+        font-family: "Space Mono", serif;
+        font-weight: 700;
+        font-style: italic;
+        height: auto;
+
+    }
+
+    .subtitleProjects {
+        font-family: sans-serif;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+
+
+    
+    .project {
+        
+        width: 300px !important;
+        height: 300px;
+
+    }
+
+    .projectTwo {
+        
+        width: 300px !important;
+        height: auto
+
+    }
+
+    .textProject,
+    .textProjectTwo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+    .titleProjects {
+        width: 100%;
+        color: white;
+        font-size: 30px;
+        font-family: "Space Mono", serif;
+        font-weight: 700;
+        font-style: italic;
+        height: auto;
+
+    }
+
+    .subtitleProjects {
+        font-family: sans-serif;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+
+
+    
+    .project {
+        
+        width: 350px !important;
+        height: 350px;
+
+    }
+
+    .projectTwo {
+        
+        width: 350px !important;
+        height: auto
+
+    }
+
+    .textProject,
+    .textProjectTwo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+    }
+
+    
+
+    
+    
+    
+
+
 
 }
